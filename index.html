@@ -45,10 +45,11 @@
         </div>
 
         <div class="survey-box">
-          <label for="dropdown"
-            >which option best describes your current role?</label
-          >
+          <p class="survey-ask">
+            which option best describes your current role?
+          </p>
 
+          <label for="dropdown"></label>
           <select id="dropdown">
             <option value="">Select an option</option>
             <option value="student" selected>Student</option>
@@ -60,10 +61,9 @@
         </div>
 
         <div class="survey-box">
-          <span class="survey-ask"
-            >How likely is that you would recommend freeCodeCamp to a
-            friend?</span
-          >
+          <p class="survey-ask">
+            How likely is that you would recommend freeCodeCamp to a friend?
+          </p>
 
           <label for="definitely">
             <input
@@ -92,7 +92,7 @@
         </div>
 
         <div class="survey-box">
-          <span class="survey-ask">What do you like most in FCC:</span>
+          <p class="survey-ask">What do you like most in FCC:</p>
 
           <label for="favorite"></label>
           <select name="favorite" id="favorite">
@@ -107,106 +107,108 @@
         <div class="survey-box">
           <p class="survey-ask">
             Things that should be improved in the future (Check all that apply):
-        </p>
+          </p>
 
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="frontEndProjects"
-              value="frontEndProjects"
-            />
-            <label for="frontEndProjects">Front-end Projects</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="backEndProjects"
-              value="backEndProjects"
-            />
-            <label for="backEndProjects">Back-end Projects</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="dataVisualization"
-              value="dataVisualization"
-            />
-            <label for="dataVisualization">Data Visualization</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="challenges"
-              value="challenges"
-            />
-            <label for="challenges">Challenges</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="openSourceCommunity"
-              value="openSourceCommunity"
-            />
-            <label for="openSourceCommunity">Open Source Community</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="gitterHelp"
-              value="gitterHelp"
-            />
-            <label for="gitterHelp">Gitter help rooms</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="vidoes"
-              value="vidoes"
-            />
-            <label for="vidoes">Videos</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="cityMeetUps"
-              value="cityMeetUps"
-            />
-            <label for="cityMeetUps">City Meetups</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="wiki"
-              value="wiki"
-            />
-            <label for="wiki">Wiki</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="forum"
-              value="forum"
-            />
-            <label for="forum">Forum</label>
-          </div>
-          <div class="improve-checkbox">
-            <input
-              type="checkbox"
-              name="needToImprove"
-              id="addCourse"
-              value="addCourse"
-            />
-            <label for="addCourse">Additional Courses</label>
+          <div class="checkbox-area">
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="frontEndProjects"
+                value="frontEndProjects"
+              />
+              <label for="frontEndProjects">Front-end Projects</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="backEndProjects"
+                value="backEndProjects"
+              />
+              <label for="backEndProjects">Back-end Projects</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="dataVisualization"
+                value="dataVisualization"
+              />
+              <label for="dataVisualization">Data Visualization</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="challenges"
+                value="challenges"
+              />
+              <label for="challenges">Challenges</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="openSourceCommunity"
+                value="openSourceCommunity"
+              />
+              <label for="openSourceCommunity">Open Source Community</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="gitterHelp"
+                value="gitterHelp"
+              />
+              <label for="gitterHelp">Gitter help rooms</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="vidoes"
+                value="vidoes"
+              />
+              <label for="vidoes">Videos</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="cityMeetUps"
+                value="cityMeetUps"
+              />
+              <label for="cityMeetUps">City Meetups</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="wiki"
+                value="wiki"
+              />
+              <label for="wiki">Wiki</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="forum"
+                value="forum"
+              />
+              <label for="forum">Forum</label>
+            </div>
+            <div class="improve-checkbox">
+              <input
+                type="checkbox"
+                name="needToImprove"
+                id="addCourse"
+                value="addCourse"
+              />
+              <label for="addCourse">Additional Courses</label>
+            </div>
           </div>
         </div>
 
