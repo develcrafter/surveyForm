@@ -1,3 +1,92 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #b2dfdb;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+}
+
+.survey-area {
+  width: 55%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 21px 0;
+  margin-bottom: 8px;
+}
+
+#description {
+  text-align: center;
+}
+
+.row {
+  /* width: 70%; */
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+.row > .labels {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+.rightTab {
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-align: center;
+  padding: 13px 21px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+  background-color: #2196f3;
+}
+
+@media only screen and (max-width: 450px) {
+  .survey-area {
+    width: 98%;
+  }
+  .row > .labels {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+
+  .rightTab {
+    width: 100%;
+  }
 }

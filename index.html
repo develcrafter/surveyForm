@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Survey Form , 2nd Project of FCC</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -114,51 +115,161 @@
         </div>
         <div class="row">
           <div class="labels">
-              <label for="mostLike">What do you like most in FCC:</label>
+            <label for="mostLike">What do you like most in FCC:</label>
           </div>
           <div class="rightTab">
-              <select name="mostLike" id="dropdown">
-                  <option value="">Select an option</option>
-                  <option value="challenges">Challenges</option>
-                  <option value="projects">Projects</option>
-                  <option value="community">Community</option>
-                  <option value="open">Open Source</option>
-              </select>
+            <select name="mostLike" id="dropdown">
+              <option value="">Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="open">Open Source</option>
+            </select>
           </div>
         </div>
         <div class="row">
           <div class="labels">
-              <label for="toImprove">Things that should be improved in the future<br>(Check all that apply):</label>
+            <label for="toImprove"
+              >Things that should be improved in the future<br />(Check all that
+              apply):</label
+            >
           </div>
           <div class="rightTab">
-              <ul>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="frontEnd">Front-end Projects</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="backEnd">Back-end Projects</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="dataVisual">Data Visualization</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="challenges">Challenges</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="openSource">Open Source Community</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="gitter">Gitter help rooms</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="videos">Videos</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="meet">City Meetups</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="wiki">Wiki</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="forum">Forum</label></li>
-                  <li><label><input type="checkbox" name="toImprove" id="toImprove" value="add">Additional Courses</label></li>
-              </ul>
+            <ul>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="frontEnd"
+                  />Front-end Projects</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="backEnd"
+                  />Back-end Projects</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="dataVisual"
+                  />Data Visualization</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="challenges"
+                  />Challenges</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="openSource"
+                  />Open Source Community</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="gitter"
+                  />Gitter help rooms</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="videos"
+                  />Videos</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="meet"
+                  />City Meetups</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="wiki"
+                  />Wiki</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="forum"
+                  />Forum</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="toImprove"
+                    id="toImprove"
+                    value="add"
+                  />Additional Courses</label
+                >
+              </li>
+            </ul>
           </div>
         </div>
         <div class="row">
           <div class="labels">
-              <label for="comment">Any Comments or Suggestions?</label>
+            <label for="comment">Any Comments or Suggestions?</label>
           </div>
           <div class="rightTab">
-              <textarea name="addComment" id="comment" cols="30" rows="3" placeholder="Enter your comment here..."></textarea>
+            <textarea
+              name="addComment"
+              id="comment"
+              cols="25"
+              rows="3"
+              placeholder="Enter your comment here..."
+            ></textarea>
           </div>
         </div>
-        <button type="submit" id="submit">Submit</button>
+        <div class="btn"><button type="submit" id="submit">Submit</button></div>
       </form>
     </main>
 
     <!-- scripts -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    -->
   </body>
 </html>
